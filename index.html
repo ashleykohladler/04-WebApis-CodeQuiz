@@ -2,33 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href=".//Assets/styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href=".//Assets/styles.css" />
 
     <title>Code Quiz</title>
 </head>
 
-<!-- <div class="timer">
-    <div>Timer</div> -->
-    <!-- <h3 class="timer-count">10</h3> -->
-
-<!-- </div>
-
-<div>High Scores</div> -->
-
-<!-- <header> -->
-<!-- <div class="opening-card"></div>Coding Quiz Challenge</div>
-<p>Try to answer the following code-related questions within the set time limit. Keep in mind that incorrect answers
-    will penalize your score/time by ten seconds! </p>
-<button class="startButton">Start Quiz</button> -->
-<!-- </header> -->
-
+ <!-- <header> 
+    <div class="container" class='hide'>
+    <div id="opening-container">Coding Quiz Challenge</div>
+        <p>Try to answer the following code-related questions within the set time limit. Keep in mind that incorrect answers
+        will penalize your score/time by ten seconds! </p>
+    </div>
+    <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+</header>  -->
 
 <body>
+    <!--High Score-->
+    <a href="highscore.html"> High Scores</a>
 
+    <!--Timer-->
+    <div id="timer">
+        <div class="timer-text">
+            <div class="large-font timer-count">60</div>
+            <h3>time left</h3>
+        </div>
+
+    <!--Questions-->
     <div class="container">
+    
         <div id="question-container" class="hide">
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
@@ -38,9 +43,29 @@
                 <button class="btn">Answer 4</button>
             </div>
         </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn">Next</button>
+        </div>
+    </div>
+
+     <!--end of game-->
+     <section id="all-done">
+        <h2> All done!</h2>
+        <div id="finalScore">Your final score is: </div>
+        <!--Enter Initials-->
+        <form>
+            <input type="text" size="40" placeholder="Enter you initials for high score" name="intials"
+                id="initials" />
+        </form>
+        <!--Submit Button-->
+        <button id="submitScoreBtn">Submit Score</button>
+    </section>
+
+</div>
 
 
-        <script src=".//Assets/script.js"></script>
+    <script src=".//Assets/script.js"></script>
 </body>
 
 </html>
