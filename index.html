@@ -50,17 +50,18 @@
     </div>
 
      <!--end of game-->
-     <section id="all-done">
+     <div id="all-done" class="hide">
         <h2> All done!</h2>
-        <div id="finalScore">Your final score is: </div>
+        <div>Your final score is: <span id="final-score"></span></div>
         <!--Enter Initials-->
         <form>
-            <input type="text" size="40" placeholder="Enter you initials for high score" name="intials"
+            <input type="text" size="40" placeholder="Enter you initials for high score" 
                 id="initials" />
+            <button onclick="setScore() id="submitScoreBtn">Submit Score</button>
         </form>
         <!--Submit Button-->
-        <button id="submitScoreBtn">Submit Score</button>
-    </section>
+       
+     </div>
 
 </div>
 

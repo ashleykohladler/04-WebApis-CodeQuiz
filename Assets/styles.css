@@ -3,13 +3,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif
 
 }
-/* 
-:root {
-  --hue-neutral: 200;
-  --hue-wrong: 0;
-  --hue-correct: 145; */
 
-/* } */
 
  a {
   position: absolute;
@@ -27,13 +21,13 @@
   
 } 
 
-h2 {
+/* h2 {
   display:none;
-}
+} */
 
-input {
+/* input {
   display: none;
-}
+} */
 
 body {
 
@@ -132,18 +126,18 @@ body {
 }
 
 
-#submitScoreBtn {
+/* #submitScoreBtn {
   border: 1px solid;
   background: darkorchid;
   border-radius: 5px;
   padding: 5px 10px;
   color: white;
   outline: none;
-  display: none;
+  display: none; 
 
-}
+} */
 
-#finalScore {
+#final-score {
   font-size: 30px;
   padding: 10px;
   margin: 40px 40px;
@@ -152,8 +146,8 @@ body {
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 10px 2px;
-  display: none;
-  
+  /* display: none; */
+   
 }
 
 #initals {
