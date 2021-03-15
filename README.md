@@ -16,7 +16,7 @@ When time runs out and/or all questions are answered, the user is presented with
 
 ## Link to Website
 
- https://ashleykohladler.github.io/03-JavaScript-PasswordGenerator/
+ 
 
 ## Screenshot
 ![Screenshot](Assets/images/image.png)
