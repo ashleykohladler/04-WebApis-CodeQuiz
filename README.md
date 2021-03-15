@@ -4,23 +4,19 @@
 
 ## Description of my work 
 
-**JavaScript**
+Play proceeds as follows:
 
-* I defined my variables.
+The user arrives at the landing page and is presented with a call-to-action to "Start " Also note the navigation option to "View Highscores" and the "Time" value set at 0.
 
-* I created a function to generate password.
+Clicking the "Start" button presents the user with a series of questions. The timer is initialized with a value and immediately begins countdown.
 
-* I created an if statement to define length of password to be between 8-128 characters.
+Score is calculated by time remaining. Answering quickly and correctly results in a higher score. Answering incorrectly results in a time penalty.
 
-* I define a variable for which characters are allowed.
-
-* I created a function to write the password.
-
-* Added an event listener to generate button.
+When time runs out and/or all questions are answered, the user is presented with their final score and asked to enter their initials. Their final score and initials are then stored in localStorage.
 
 ## Link to Website
 
  https://ashleykohladler.github.io/03-JavaScript-PasswordGenerator/
 
 ## Screenshot
-![Screenshot](Develop/image/screenshot.jpg)
+![Screenshot](Assets/images/image.png)
